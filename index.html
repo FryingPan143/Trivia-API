@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIVIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section id="main-menu">
+        <h1>TRIVIA - Quiz App</h1>
+            <section class="settings">
+                <label for="difficulty">Difficulty:</label>
+                <select name="difficulty" id="difficulty">
+                    <option value="">All</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+
+                <label for="amount">Amount of Questions</label>
+                <select name="amount" id="amount">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                </select>
+
+                <label for="category">Category:</label>
+                <select name="category" id="category">
+                    <option value="">Random</option>
+                    <option value="9">General knowledge</option>
+                    <option value="10">Entertainment</option>
+                    <option value="11">Movie</option>
+                    <option value="12">Music</option>
+                    <option value="14">TV</option>
+                    <option value="15">Video games</option>
+                    <option value="16">Board games</option>
+                    <option value="17">Nature and Science</option>
+                    <option value="18">Computers</option>
+                    <option value="19">Math</option>
+                    <option value="20">Mythology</option>
+                    <option value="21">Sport</option>
+                    <option value="22">Geography</option>
+                    <option value="23">History</option>
+                    <option value="24">Politics</option>
+                    <option value="26">Celebs</option>
+                    <option value="27">Animals</option>
+                    <option value="28">Vehicles</option>
+                    <option value="29">Comics</option>
+                    <option value="31">Anime</option>
+                    <option value="32">Cartoon</option>
+                </select>
+                <button class="btn" id="start-game-btn">START</button>
+            </section>
+            <section id="chosen-categories"></section>
+         </section>
+    </header>
+    <main>
+        
+        <section id="mainBox">
+            <section class="game-area">
+
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section id="answer-sheet"></section>
+    </footer>
+
+<script src="index.js"></script>
+</body>
+</html>

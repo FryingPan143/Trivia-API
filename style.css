@@ -1,0 +1,174 @@
+body {
+  background: url(img/wp.jpg);
+  color: whitesmoke;
+  font-size: 1.2em;
+  text-shadow: 3px 1px #000000;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header #main-menu {
+  text-align: center;
+  width: 45vw;
+  height: 18vh;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  background: rgba(76, 175, 80, 0.4);
+}
+
+header #start-game-btn {
+  margin-top: 11px;
+  width: 80%;
+}
+
+header h3 {
+  color: #f5d000;
+}
+
+header .chosen-alts {
+  line-height: 0.5;
+}
+
+header .chosen-i {
+  color: black;
+  text-shadow: none;
+}
+
+header .settings * {
+  font-size: 1.2em;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #mainBox {
+  margin-bottom: 30px;
+  text-align: center;
+  width: 45vw;
+  height: 30vh;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(76, 175, 80, 0.4);
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+}
+
+main #mainBox * {
+  font-size: 1.2em;
+}
+
+.btn {
+  border-radius: 12px;
+  background-color: black;
+  border: 1px solid #4d4d4d;
+  margin: 5px;
+  color: whitesmoke;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #4dbe5c;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #answer-sheet {
+  text-align: center;
+  width: 45vw;
+  height: 30vh;
+  overflow-y: auto;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(76, 175, 80, 0.4);
+  text-shadow: none;
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+}
+
+footer #answer-sheet .quest-line {
+  color: black;
+  font-size: 1.2em;
+}
+
+footer #answer-sheet .correct-a {
+  color: green;
+}
+
+footer #answer-sheet .wrong-a {
+  color: red;
+}
+
+footer #answer-sheet .was-a {
+  color: aqua;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 0px 25px 25px 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9e9e9e;
+  border-radius: 0px 25px 25px 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #37dfc3;
+}
+
+@-webkit-keyframes slideUpIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideUpIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
